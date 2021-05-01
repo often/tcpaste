@@ -1,4 +1,4 @@
-import tcpaste from 'https://deno.land/x/tcpaste@v1.0.0/mod.js'
+import tcpaste from './mod.js'
 let { log } = console
 
 log(await tcpaste.create('hi')) // { url: 'http://tcp.st/...', admin: 'http://tcp.st/admin/...' }
